@@ -1,0 +1,20 @@
+
+#time{
+font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+font-size: 30px;
+color: #ffffff;
+}
+#date{
+font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+font-size: 60px;
+color: #ffffff;
+}
+#weather{
+font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+font-size: 60px;
+color: #ffffff;
+}
+body
+{
+  background-color: #000000;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Smart Mirror</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="weather_css/weather-icons.min.css">
+	<script src="script.js"></script>
+
+	<!-- woeid for Alexandria VA: 2353019 -->
+	<script src="https://query.yahooapis.com/v1/public/yql?q=select%20ite%20from%20weather.forecast%20where%20woeid=2353019&format=json&callback=callbackFunction"></script>
+
+
+
+
+</head>
+<body>
+
+<div id = 'date'></div>
+<div id = 'time'>5</div>
+<div id = 'weather'>
+	<!-- <div id = 'mainWeather'></div>
+	<div class = 'subWeather' id = 'day1'></div>
+	<div class = 'subWeather' id = 'day2'></div>
+	<div class = 'subWeather' id = 'day3'></div>
+	<div class = 'subWeather' id = 'day4'></div>
+	<div class = 'subWeather' id = 'day5'></div> -->
+
+</div>
+
+</body>
+</html>
