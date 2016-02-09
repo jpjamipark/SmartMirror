@@ -6,20 +6,17 @@ $( document ).ready(function() {
 
 
 var callbackFunction = function(data) {
-    var forecast = data.query.results.channel.item.forecast;
+    var forecast = data.query.results.channel.item.condition;
     generateWeatherDOM(forecast);
 };
 
 function generateWeatherDOM(forecast){
-for (var i = 0; i < forecast.length; i++) {
-	$( document ).ready(function() {
-	text = forecast[i].text;
-	console.log(text);
-	console.log(day);
-    $( "#weather" ).append( "<div>" + day + "</div>" );
-	});
+$( document ).ready(function() {
+    info = forecast.temp + " " + forecast.text;
+    $("#weather").append(info);
+});
 }
-}
+
 
 
 
